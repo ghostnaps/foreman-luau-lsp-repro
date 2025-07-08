@@ -20,7 +20,7 @@ jobs:
       - uses: Roblox/setup-foreman@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          version: v1.6.3
+          version: v1.6.0
           allow-external-github-orgs: true
 
       - name: Log Foreman info
