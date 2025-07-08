@@ -20,6 +20,9 @@ jobs:
           chmod +x ./foreman
           ./foreman install -v
 
+      - name: Log the architecture
+        run: uname -m
+
       - name: Log Foreman info
         run: |
           ./foreman --version
