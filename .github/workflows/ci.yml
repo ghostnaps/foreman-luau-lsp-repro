@@ -20,6 +20,7 @@ jobs:
       - uses: Roblox/setup-foreman@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          version: v1.6.3
           allow-external-github-orgs: true
 
       - name: Run just luau-lsp, no arguments
