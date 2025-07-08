@@ -23,6 +23,11 @@ jobs:
           version: v1.6.3
           allow-external-github-orgs: true
 
+      - name: Log Foreman info
+        run: |
+          foreman --version
+          foreman list
+
       - name: Run just luau-lsp, no arguments
         shell: bash
         run: luau-lsp --help
