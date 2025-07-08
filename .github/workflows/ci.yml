@@ -17,6 +17,7 @@ jobs:
         run: |
           curl -LO https://github.com/Roblox/foreman/releases/download/v1.6.4/foreman-linux-x86_64.zip
           unzip foreman-linux-x86_64.zip
+          chmox +x ./foreman
           ./foreman install --verbose
 
       - name: Log Foreman info
