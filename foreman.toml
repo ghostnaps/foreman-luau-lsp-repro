@@ -1,0 +1,2 @@
+[tools]
+luau-lsp = { source = "JohnnyMorganz/luau-lsp", version = "=1.45.0" }
