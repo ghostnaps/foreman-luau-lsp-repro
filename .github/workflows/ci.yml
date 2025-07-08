@@ -24,4 +24,4 @@ jobs:
 
       - name: Run just luau-lsp, no arguments
         shell: bash
-        run: luau-lsp
+        run: luau-lsp --help
