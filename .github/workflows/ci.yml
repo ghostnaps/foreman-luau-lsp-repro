@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Roblox/setup-foreman@v3
+      - uses: Roblox/setup-foreman@v3.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           version: v1.6.0
